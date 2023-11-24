@@ -1,0 +1,193 @@
+/*-------Gobal CSS-------------*/
+
+body{
+    background: rgb(201, 197, 197);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    height: auto;
+}
+
+
+
+
+.container h1{
+    width: 100%;
+    text-align: center;
+    color: blueviolet;
+    text-transform: capitalize;
+    
+}
+
+/*-----------------Z-Index Section---------------*/
+.box{
+    position: relative;
+    width: 340px;
+    height: 250px;
+    background: rgb(241, 168, 243);
+    margin: auto;
+    border: 1px solid #000;
+   
+     
+}
+.s_box1{
+    position: absolute;
+    width:70px;
+    height: 70px;
+    background: rgb(228, 59, 149);
+    top: 40px;
+    left: 40px;
+    border: 1px solid rgb(228, 59, 149);
+    border-radius: 5px;
+    
+}
+.s_box2{
+    position: absolute;
+    width:70px;
+    height: 70px;
+    background: rgb(78, 168, 232);
+    left: 66px;
+    top: 66px;
+    border: 1px solid rgb(78, 168, 232);
+    border-radius: 5px;
+   
+}
+.s_box3{
+    position: absolute;
+    width:70px;
+    height: 70px;
+    background: rgb(140, 228, 52);
+    left: 94px;
+    top: 91px;
+    z-index: 1;
+    border: 2px solid rgb(140, 228, 52);
+    border-radius: 5px;
+    
+}
+.s_box4{
+    position: absolute;
+    width:70px;
+    height: 70px;
+    background: rgb(237, 37, 70);
+    top: 129px;
+    left: 129px;
+    border: 2px solid  rgb(237, 37, 70);
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.561);
+    border-radius: 5px;
+}
+
+.s_box5{
+    position: absolute;
+    width:70px;
+    height: 70px;
+    background: yellow;
+    top: 159px;
+    left: 163px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+  
+}
+/*-------National Flag of Bangladesh-------------*/
+.parent{
+    position: relative;
+    background: green;
+    width: 400px;
+    height: 240px;
+    margin: auto;
+}
+
+.child{
+   position: absolute;
+   border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: red;
+    left: 90px;
+    top:57px;
+}
+
+/*--------------Registration Form-------------*/
+.form-section{
+    width:100%;
+    padding: 80px 0px;
+}
+
+.main-box{
+    background: white;
+    width: 48%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+
+.main-box .left{
+     margin-right: 20px;
+}
+.main-box .left img{
+    width: 100%;
+    height: auto;
+}
+
+.main-box .right{
+    margin-left: 20px;
+}
+
+.main-box .right h2{
+   text-align: center;
+   font-size: 24px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+
+}
+
+.main-box .right input{
+    width: 100%;
+    border: none; 
+    border-bottom: 1px solid black;
+    padding: 5px 0px; 
+    margin: 11px 0px;  
+}
+
+.main-box .right .name input{
+    width: 48%;
+    border: none; 
+    border-bottom: 1px solid black;
+    padding: 5px 0px; 
+    margin: 15px 0px;  
+}
+
+.main-box .right .name .first-name{
+    margin-right: 7px;
+}
+
+.main-box .right input::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-box .right select{
+    width: 100%;
+    border: none; 
+    border-bottom: 1px solid black;
+    padding: 5px 0px; 
+    margin: 11px 0px;  
+    font-family: 'Poppins', sans-serif;
+}
+ 
+.main-box .right input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.main-box .right .btn button{
+   background:#4c5357;
+   color: white;
+   padding: 10px 35px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 15px;
+   margin: 19px 0px 0px;
+}
